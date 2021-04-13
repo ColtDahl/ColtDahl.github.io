@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head><linkrel="stylesheet"href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+<head><linkrel="stylesheet"href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
 		       integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="crossorigin=""/>
 		<!--Make sure you put this AFTER Leaflet's CSS -->
 		<scriptsrc="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
@@ -12,7 +10,7 @@
 			<divid="mymapid" style="height:200px">
 				</div>
 			<script>
-				varmymap =L.map('mymapid').setView([50.0,50.0],13);
+				varmymap =L.map('mymapid').setView([-95.913889,45.586111],13);
 				L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',{
 					attribution:'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>',
 					maxZoom:18,
@@ -24,5 +22,3 @@
 			</script>
 	</body>
 </html>
-					
-					
